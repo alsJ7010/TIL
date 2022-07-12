@@ -54,3 +54,7 @@ public interface ControllerV4 {
 => Map<String, Object> model = new HashMap<>()
 
 모델 객체를 프론트 컨트롤러에서 생성해서 넘겨주는것으로 수정.
+
+
+### 최종 구조 ###
+![image](https://user-images.githubusercontent.com/108853290/178461618-46c633e6-6820-4159-9c00-cdae433e2de2.png)
