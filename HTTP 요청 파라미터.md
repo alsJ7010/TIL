@@ -1,14 +1,6 @@
-# TIL
+# HTTP 요청 파라미터
 
-스프링에서 컨트롤러에서 String 타입의 메소드에 String값을 리턴하면 **기본적으로 viewResolver에 의해 반환값에 맞는 뷰 이름을 찾게 된다**.  
-**단순한 String값을 반환하기 위해서는**
 
-1) 클래스 레벨에 @Controller 대신 `@RestController`를 써주거나
-2) 메소드 레벨에 `@ResponseBody` 애노테이션을 붙여준다.
-
-그러면 뷰 이름을 찾지 않고 리턴값 텍스트 그대로 HTTP message body에 넣어서 반환하게 된다.
-
------------------------------------------
 
 ### HTTP 요청 파라미터 - @RequestParam 를 받을 때 ###
 
@@ -52,5 +44,12 @@ public String requestParamV4(String username, int age) { ... }
 
 
 -------------------------------
-Integer null가능
-int null 불가능
+
+스프링에서 컨트롤러에서 String 타입의 메소드에 String값을 리턴하면 **기본적으로 viewResolver에 의해 반환값에 맞는 뷰 이름을 찾게 된다**.  
+**단순한 String값을 반환하기 위해서는**
+
+1) 클래스 레벨에 @Controller 대신 `@RestController`를 써주거나
+2) 메소드 레벨에 `@ResponseBody` 애노테이션을 붙여준다.
+
+그러면 뷰 이름을 찾지 않고 리턴값 텍스트 그대로 HTTP message body에 넣어서 반환하게 된다.
+
