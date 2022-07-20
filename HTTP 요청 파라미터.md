@@ -1,4 +1,4 @@
-# HTTP 요청 파라미터
+# HTTP 요청 파라미터 받기
 
 
 
@@ -42,6 +42,18 @@ public String requestParamV4(String username, int age) { ... }
 * @RequestParam 파라미터 디폴트 값 : `(defaultValue="")`
    * 빈값으로 들어온 경우에도 디폴트 값이 적용됨
 
+----------------------------------
+
+### HTTP 요청 파라미터 - @ModelAttribut ###
+
+객체를 만들고 그 객체에 요청 값을 넣을 때
+**1) 객체를 만들고 그 객체에 요청 값을 넣을 때**
+`public String modelAttributeV1(@ModelAttribute HelloData helloData) { ... }`
+
+혹은
+`public String modelAttributeV1(HelloData helloData) { ... }`
+@ModelAttribute도 생략 가능  
+`@ModelAttribute` 가 있으면 스프링 MVC가 해당 타입의 객체를 생성한 후 객체 프로퍼티를 찾아 값을 바인딩 한다.
 
 -------------------------------
 
