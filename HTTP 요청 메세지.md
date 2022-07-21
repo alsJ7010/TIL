@@ -42,13 +42,12 @@
 2) `@RequestBody ` : 직접 HTTP 메세지에서 데이터를 꺼내 자바 객체로 변환하는 방법
 
 
-`
-public String requestBodyJsonV2(@RequestBody String messageBody) throws
-IOException { 
-  HelloData data = objectMapper.readValue(messageBody, HelloData.class)
-  ...
+```
+public String requestBodyJsonV2(@RequestBody String messageBody) throws IOException {   
+  HelloData data = objectMapper.readValue(messageBody, HelloData.class);    
+  ...   
 }
-`   
+```   
 받아온 messageBody를 바로 objectMapper.readValue로 파싱해서 사용
 
 3)  **문자로 받고 객체 파싱하는것까지 한번에 해주는 방법!**   
