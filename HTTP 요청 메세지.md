@@ -32,7 +32,7 @@
 
 # HTTP 요청 메세지 - JSON
 
-> JSON 타입으로 올 경우
+> JSON 타입으로 올 경우!! **content-type : application/json**으로 날아올결우!!
 
 1) 서블릿 `request.getInputStream()`으로 직접 받아와 `ObjectMapper`로 HelloData객체에 직접 파싱해주는 방법 
 
