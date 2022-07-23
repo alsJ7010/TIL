@@ -61,7 +61,8 @@ public String requestBodyJsonV2(@RequestBody String messageBody) throws IOExcept
 
 참고
 * HttpEntity로 가져와 .getBody로도 사용할 수 있음
-* 응답도 JSON형태로 응답 가능
+* 응답도 JSON형태로 응답 가능, 대신 **Accept : application/json** 으로
+  * 요청으로 들어올 때는 content-type만 맞추면 되지만 응답으로 나갈 때는 accept또는 consume을 맞춰줘야 함
 
 > **@RequestBody 요청**   
 > JSON 요청 -> HTTP 메시지 컨버터 -> 객체    
