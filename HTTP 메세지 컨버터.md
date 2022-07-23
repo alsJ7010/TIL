@@ -48,7 +48,7 @@
   `
   public String requestBodyJsonV2(@RequestBody String messageBody) throws IOException { ... }  
   `
-  * ex) @RequestBody, @HttpEntity, Model, 객체 등    
+  * ex) @RequestBody, @HttpEntity, Model 등    
   * **ArgumentResolver때문!**
   * 인터페이스로 제공됨, **각각의 파리미터에 타입에 대한 맞춤 리졸버가 존재**
   * **컨트롤러를 호출하는 핸들러에서 해당 파라미터가 필요하다고 하면 먼저ArgumentResolver에서 해당 파라미터를 지원하는지 확인 한 후 만들어서 컨트롤러에 파라미터를 주는것!**
