@@ -65,3 +65,9 @@ public String requestParamV4(String username, int age) { ... }
 
 그러면 뷰 이름을 찾지 않고 리턴값 텍스트 그대로 HTTP message body에 넣어서 반환하게 된다.
 
+
+                                                
+**참고**
+> 스프링은 해당 생략시 다음과 같은 규칙을 적용한다.
+> * String , int , Integer 같은 단순 타입 = @RequestParam
+> * 나머지 = @ModelAttribute (argument resolver 로 지정해둔 타입 외)
