@@ -18,5 +18,5 @@
   * HTTP 응답
     * [HTTP 응답](https://github.com/MJeong00/TIL/blob/main/HTTP%20%EC%9D%91%EB%8B%B5.md)
 * [@RequestMapping](https://github.com/MJeong00/TIL/blob/main/%40RequestMapping.md)
-* redirect
+* [redirect](https://github.com/MJeong00/TIL/blob/main/redirect.md)
   * [PRG (Post/Redirect/Get)](https://github.com/MJeong00/TIL/blob/main/PRG%20%ED%8C%A8%ED%84%B4.md)
