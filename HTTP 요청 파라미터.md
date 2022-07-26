@@ -46,13 +46,20 @@ public String requestParamV4(String username, int age) { ... }
 
 ### HTTP 요청 파라미터 - @ModelAttribut ###   
 
-**1) 객체를 만들고 그 객체에 요청 값을 넣을 때**
+**1) 객체를 만들고 그 객체에 요청 값을 넣을 때**   
 `public String modelAttributeV1(@ModelAttribute HelloData helloData) { ... }`   
 
-혹은
+혹은   
 `public String modelAttributeV1(HelloData helloData) { ... }`   
 @ModelAttribute도 생략 가능     
 `@ModelAttribute` 가 있으면 스프링 MVC가 해당 타입의 객체를 생성한 후 객체 프로퍼티를 찾아 값을 바인딩 한다.   
+   
+   
+**2)Model 추가**   
+Model에 `@ModelAttribute`로 지정한 객체를 자동으로 넣어준다.    
+model.addAttribute("item", item) 같은 코드를 넣지 않아도 됨.
+
+
 
 -------------------------------
 
