@@ -1,5 +1,21 @@
 # @RequestMapping
 
+
+* `RequestMapping`은 URL 매칭뿐만 아니라 HTTP Method도 구분할 수 있다. => `@GetMapping, @PostMapping`
+* ex) method=RequestMethod.GET
+
+**이런 기능을 아예 애노테이션으로 편리하게 사용 가능**
+
+ `@GetMapping`
+ 안으로 들어가보면 내장되어있는 코드 
+ `@RequestMappinng(method = RequestMethod.GET)`   
+ 
+ 
+ **참고**
+> 무작정 @RequestMapping으로 매핑하는것 보다는 **HTTP 메소드를 살린 애노테이션으로 매핑하는것이 더 좋은 코드**!!
+
+-----------------------------------------------------------------------------------------------------------------
+
 * 단순 `@RequestMapping` 요청   
   * 단순히 `@RequestMapping` 만으로만 요청을 매핑하면 Http 메서드와 무관하게 호출. 모든 Http요청이 허용된다.
 
@@ -37,3 +53,8 @@
 * 특정 헤더 조건 매핑
   * `@GetMapping(value = "/url", headers = "mode=debug")`
   * 위의 매핑과 비슷하지만 Http 헤더를 사용.
+
+   
+   ---------------------------------------------------
+   
+
