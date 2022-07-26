@@ -10,6 +10,7 @@
 * #### POST - HTML Form #### 
   * ##### 메세지 바디에 쿼리 파라미터 형식으로 전달 #####
   * content-type: application/x-www-form-urlencoded
+  * HTML Form 전송은 스펙상 GET, POST 만 사용할 수 있다.
   
 * #### HTTP message body에 데이터를 직접 담아서 요청 #### 
   * 주로 API에서 사용/ JSON, XML, TEXT
