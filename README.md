@@ -3,7 +3,7 @@
 ### Spring ###   
 
 * MVC 패턴 이해하기
-  * [FrontController의 이해](https://github.com/MJeong00/TIL/blob/main/MVC%ED%8C%A8%ED%84%B4%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md)
+  * [FrontController의 이해 > DispatcherServlet](https://github.com/MJeong00/TIL/blob/main/MVC%ED%8C%A8%ED%84%B4%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md)
   * [MVC패턴 이해하기2](https://github.com/MJeong00/TIL/blob/main/MVC%ED%8C%A8%ED%84%B4%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B02.md)
   * [MVC패턴 이해하기2](https://github.com/MJeong00/TIL/blob/main/MVC%ED%8C%A8%ED%84%B4%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B03.md)
   * [Adapter 개념의 도입](https://github.com/MJeong00/TIL/blob/main/MVC%ED%8C%A8%ED%84%B4%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B04.md)
