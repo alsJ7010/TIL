@@ -56,8 +56,10 @@ public String requestParamV4(String username, int age) { ... }
    
    
 **2)Model 추가**   
-Model에 `@ModelAttribute`로 지정한 객체를 자동으로 넣어준다.    
-model.addAttribute("item", item) 같은 코드를 넣지 않아도 됨.
+`public String modelAttributeV1(@ModelAttribute("helloData") HelloData helloData) { ... }`    
+* Model에 `@ModelAttribute`로 지정한 객체를 자동으로 넣어준다. (=model.addAttribute("item", item) 같은 코드를 넣지 않아도 됨.)       
+* `@ModelAttribute` 괄호 안에 있는 텍스트로 model에 추가됨.
+* 괄호 생략시 앞글자만 소문자로 변환해서 model에 추가. `HelloData -> helloData`
 
 
 
