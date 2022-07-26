@@ -17,7 +17,7 @@
           return "redirect:/items/{itemId}";
       }
   ```
-  => `url/items/a?name=kim`
+  => `url/items/1?name=kim`
   
   
        
