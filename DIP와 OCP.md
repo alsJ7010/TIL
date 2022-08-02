@@ -99,7 +99,7 @@ public class MemberServiceImpl implements MemberService {
 Appconfig의 도입으로 service계층은 
 * **구체 클래스에 의존하지 않으며**(DIP 준수)
 * **의존관계에 대한 고민은 외부에 맡기고 기능 실행에만 집중**하게 된다.
-* 중복을 제거하여 수정시 한부분만 고치면 된다.
+* 중복을 제거하여 수정시 한부분만 고치면 된다.(구체 영역이 바뀌면 연결 구성을 담당하는 AppConfig만 고치면 된다.)   
 * 전체 구성을 빠르게 파악할 수 있다.
    
    
