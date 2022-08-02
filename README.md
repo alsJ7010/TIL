@@ -21,3 +21,4 @@
 * [redirect](https://github.com/MJeong00/TIL/blob/main/redirect.md)
   * [PRG (Post/Redirect/Get)](https://github.com/MJeong00/TIL/blob/main/PRG%20%ED%8C%A8%ED%84%B4.md)
 * [DIP와 OCP](https://github.com/MJeong00/TIL/blob/main/DIP%EC%99%80%20OCP.md)
+* [SRP](https://github.com/MJeong00/TIL/blob/main/SRP.md)
