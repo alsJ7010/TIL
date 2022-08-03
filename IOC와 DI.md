@@ -34,7 +34,8 @@ public class OrderServiceImpl implements OrderService{
 ```
 위의 코드에서 `OrderServiceImpl`의 입장에서는 인터페이스에 의존한다는것은 알지만 어떤 구체 클래스가 들어올지는 모르는것이다.    
 변수에 들어온 참조값을 가지고 묵묵히 자기 기능을 실행할 뿐이다.   
-
+> 의존성 주입은 DIP를 따르는 방법 중에 하나!   
+> DIP : 추상화에 의존해야지, 구체화에 의존하면 안된다.
 
 ![image](https://user-images.githubusercontent.com/108853290/182585936-496a63c6-ad45-4b28-9578-1906425f4cda.png)   
    
@@ -50,3 +51,9 @@ public class OrderServiceImpl implements OrderService{
    
 의존관계 주입을 사용하면 클라이언트 코드, 즉 해당 객체를 사용하는 `serviceImpl`에서는 코드를 변경하지 않고 클라이언트가 호출하는 대상의 타입 인스턴스를 변경할 수 있다.
 ( = 의존관계 주입을 사용하면 정적인 클래스 의존관계를 변경하지 않고, 동적인 객체 인스턴스 의존관계를 쉽게 변경할 수 있다.)
+   
+      
+----------------------------------
+참고
+> AppConfig 처럼 객체를 생성하고 관리하면서 의존관계를 연결해 주는 것을 **IoC 컨테이너** 또는 **DI 컨테이너**라 한다.    
+> 의존관계 주입에 초점을 맞추어 최근에는 주로 DI 컨테이너라 한다.
