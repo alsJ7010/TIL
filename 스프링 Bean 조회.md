@@ -48,3 +48,14 @@ public class ApplicationContextBasicFindTest {
   * `.getBean(빈이름, 타입)` 또는 `.getBean(타입)`   
   * 빈 이름을 생략 가능하다.   
   * 만약 조회 대상 스프링 빈이 없으면 예외가 발생한다. `NoSuchBeanDefinitionException: No bean named 'xxxxx' available`   
+
+  
+  
+### 3) 동일한 타입 둘 이상 ###
+![image](https://user-images.githubusercontent.com/108853290/182817271-cd3718c3-4d71-4802-a141-22634e871883.png)   
+타입으로 조회시 같은 타입의 스프링 빈이 둘 이상이면 오류가 발생한다.    
+이때는 **빈 이름을 지정**한다.
+   
+![image](https://user-images.githubusercontent.com/108853290/182817573-0833ab51-8403-4104-afdf-46c8f25ce85e.png)   
+
+* `.getBeansOfType()` 을 사용하면 해당 타입의 모든 빈을 조회할 수 있다.
