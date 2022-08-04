@@ -1,0 +1,50 @@
+# 스프링 Bean 조회
+
+### 1) 모든 빈 출력하기 ###
+```java
+public class ApplicationContextInfoTest {
+
+    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+
+    @Test
+    @DisplayName("모든 빈 조회")
+    void findAllBean() {
+        String[] beanDefinitionNames = ac.getBeanDefinitionNames();
+        for (String beanDefinitionName : beanDefinitionNames) {
+            Object bean = ac.getBean(beanDefinitionName);   //Object로 꺼내짐. 타입을 모르기 때문에!
+            System.out.println("bean = " + beanDefinitionName + " object = " + bean);
+        }
+    }
+}
+```
+  
+* `.getBeanDefinitionNames()`를 통해 스프링 컨테이너에 등록된 모든 빈들을 조회할 수 있다.
+
+
+### 2) 빈 조회 ###
+```java
+public class ApplicationContextBasicFindTest {
+
+    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+
+    @Test
+    @DisplayName("빈 이름으로 조회")
+    void findBeanByName() {
+        MemberService memberService = ac.getBean("memberService", MemberService.class);
+        assertThat(memberService).isInstanceOf(MemberServiceImpl.class);
+    }
+
+    @Test
+    @DisplayName("이름 없이 타입으로만 조회")
+    void findBeanByType() {
+        MemberService memberService = ac.getBean(MemberService.class);
+        assertThat(memberService).isInstanceOf(MemberServiceImpl.class);
+    }
+}
+
+```
+
+* `.getBean()` : 빈 이름으로 빈 객체를 조회한다.
+  * `.getBean(빈이름, 타입)` 또는 `.getBean(타입)`   
+  * 빈 이름을 생략 가능하다.   
+  * 만약 조회 대상 스프링 빈이 없으면 예외가 발생한다. `NoSuchBeanDefinitionException: No bean named 'xxxxx' available`   
