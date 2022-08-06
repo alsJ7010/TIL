@@ -21,6 +21,10 @@
 * Constructor arguments, Properties: 의존관계 주입에서 사용한다. (자바 설정 처럼 팩토리
 역할의 빈을 사용하면 없음)
 
+#### 출력된 BeanDefinition ####
+![image](https://user-images.githubusercontent.com/108853290/183242752-aceeb176-926d-4cd8-98f3-514ff617548b.png)
+
+
 
 ------------------------------------------------------
 ## 스프링의 다양한 설정 파일 지원 이유 ##
