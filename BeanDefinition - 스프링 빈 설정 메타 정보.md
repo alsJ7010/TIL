@@ -35,6 +35,6 @@
 ![image](https://user-images.githubusercontent.com/108853290/183241672-09fe5149-6fad-4876-b658-6caefb0bf459.png)
    
 각각의 파일 형식에 맞춰 `BeanDefition`을 생성해주는 클래스가 있다.   
-설정정보를 바탕으로 그에 맞는 클래스로 `BeanDefition`을 생성해주면 스프링 컨테이너는 이를 바탕으로 빈을 생성ㅎ나다.
+설정정보를 바탕으로 그에 맞는 클래스로 `BeanDefition`을 생성해주면 스프링 컨테이너는 이를 바탕으로 빈을 생성다.
 
 #### 정리: 스프링이 다양한 형태의 설정 정보를 `BeanDefinition`으로 추상화해서 사용하는것! ####
