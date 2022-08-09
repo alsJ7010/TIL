@@ -17,10 +17,12 @@
 
   
   
-바로 **`@Configuration` 때문**이다.   
-`@Configuration`이 적용되면 스프링은 AppConfig를 상속받은 새로운 인스턴스를 만들어낸다.   
-![image](https://user-images.githubusercontent.com/108853290/183568181-c30e7cb1-2e0a-4b64-93db-466f5f59f319.png)  
+바로 
+### `@Configuration` 때문 이다.   
+`@Configuration`이 적용되면 스프링은 AppConfig를 상속받은 새로운 인스턴스를 만들어낸다.  
 스프링 컨테이너에서 빈으로 등록된 AppConfig의 클래스 타입을 출력해보면  
+![image](https://user-images.githubusercontent.com/108853290/183568181-c30e7cb1-2e0a-4b64-93db-466f5f59f319.png)  
+
 
 ![image](https://user-images.githubusercontent.com/108853290/183568315-6667e71d-f57d-43d6-b857-f76dce716537.png)
   
@@ -35,7 +37,8 @@
 
 ---------------------------------------  
 
-그렇다면 만약 `@Configuration` 을 적용하지 않고, `@Bean` 만 적용하면 어떻게 될까?      
+그렇다면 만약 `@Configuration` 을 적용하지 않고, `@Bean` 만 적용하면 어떻게 될까?   
+
 `@Configuration`이 없는 AppConfig는 그저 순수한 자바 코드를 실행하게 된다. 
 `memberRepository()`가 호출되면 `new MemoryMemberRepository()`를 호출할 뿐이다. 이것은 스프링이 관리해준 빈을 가져온것이 아니라 새로 객체가 만들어진것이다.   
 그래서 memberRepository가 사용되는 클래스에서 참조값을 가져와 출력해보면 각각 다른 인스턴스임을 볼 수 있다.
