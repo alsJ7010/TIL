@@ -1,4 +1,4 @@
-# @Configuration과 싱글톤
+# Configuration과 싱글톤
 > 해당 내용은 김영한님의 인프런_[스프링 핵심 기술]을 바탕으로 합니다.  
 
 
