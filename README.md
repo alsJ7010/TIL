@@ -33,3 +33,4 @@
   * [@Configuration과 싱글톤](https://github.com/MJeong00/TIL/blob/main/@Configuration%EA%B3%BC%20%EC%8B%B1%EA%B8%80%ED%86%A4.md)
 * [컴포넌트 스캔](https://github.com/MJeong00/TIL/blob/main/%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EC%8A%A4%EC%BA%94.md)
 * [의존관계 자동 주입](https://github.com/MJeong00/TIL/blob/main/%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84%20%EC%9E%90%EB%8F%99%20%EC%A3%BC%EC%9E%85.md)
+  * [조회 빈이 두개 이상](https://github.com/MJeong00/TIL/blob/main/%EC%A1%B0%ED%9A%8C%20%EB%B9%88%EC%9D%B4%20%EB%91%90%EA%B0%9C%20%EC%9D%B4%EC%83%81%20.md)
