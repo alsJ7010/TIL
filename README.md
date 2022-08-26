@@ -3,6 +3,9 @@
 ### Web ###
 * [웹 서버와 WAS](https://github.com/MJeong00/TIL/blob/main/Web/%EC%9B%B9%20%EC%84%9C%EB%B2%84%EC%99%80%20WAS.md)
 
+### Java ###
+* [Servlet](https://github.com/MJeong00/TIL/blob/main/Java/Servlet.md)
+
 ### Spring ###   
 
 * MVC 패턴 이해하기
