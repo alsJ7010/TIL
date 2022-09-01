@@ -4,7 +4,8 @@
 * [웹 서버와 WAS](https://github.com/MJeong00/TIL/blob/main/Web/%EC%9B%B9%20%EC%84%9C%EB%B2%84%EC%99%80%20WAS.md)
 * [IP](https://github.com/MJeong00/TIL/blob/main/Web/IP.md)
 * [TCP와 IP](https://github.com/MJeong00/TIL/blob/main/Web/Network/TCP%EC%99%80%20IP.md)
-* [HTTP의 발전_1](https://github.com/MJeong00/TIL/blob/main/Web/HTTP%EC%9D%98%20%EB%B0%9C%EC%A0%84_1.md)
+* [HTTP의 발전_HTTP 1.x](https://github.com/MJeong00/TIL/blob/main/Web/HTTP%EC%9D%98%20%EB%B0%9C%EC%A0%84_1.md)
+* [HTTP의 발전2_ HTTP2.0](https://github.com/MJeong00/TIL/blob/main/Web/HTTP%EC%9D%98%20%EB%B0%9C%EC%A0%842_%20HTTP2.0%20.md)
 
 ### Java ###
 * [Servlet](https://github.com/MJeong00/TIL/blob/main/Java/Servlet.md)
