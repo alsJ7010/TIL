@@ -28,7 +28,7 @@
   * HTTP 응답
     * [HTTP 응답](https://github.com/MJeong00/TIL/blob/main/Spring/HTTP%20%EC%9D%91%EB%8B%B5.md)
 * [@RequestMapping](https://github.com/MJeong00/TIL/blob/main/Spring/%40RequestMapping.md)
-* [redirect](https://github.com/MJeong00/TIL/blob/main/redirect.md)
+* [redirect](https://github.com/MJeong00/TIL/blob/main/Spring/redirect.md)
   * [PRG (Post/Redirect/Get)](https://github.com/MJeong00/TIL/blob/main/PRG%20%ED%8C%A8%ED%84%B4.md)
 * [DIP와 OCP](https://github.com/MJeong00/TIL/blob/main/DIP%EC%99%80%20OCP.md)
 * [SRP](https://github.com/MJeong00/TIL/blob/main/SRP.md)
