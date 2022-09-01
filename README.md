@@ -22,7 +22,7 @@
 * [Logging](https://github.com/MJeong00/TIL/blob/main/Spring/Logging.md)
 * HTTP 요청/응답
   * HTTP 요청
-    * [HTTP 요청 메세지를 통해 클라이언트에서 서버로 데이터를 전달하는 세가지 방법](https://github.com/MJeong00/TIL/blob/main/HTTP%20%EC%9A%94%EC%B2%AD.md)
+    * [HTTP 요청 메세지를 통해 클라이언트에서 서버로 데이터를 전달하는 세가지 방법](https://github.com/MJeong00/TIL/edit/main/Spring/HTTP%20%EC%9A%94%EC%B2%AD.md)
     * [@RequestParam, @ModelAttribute](https://github.com/MJeong00/TIL/blob/main/Spring/HTTP%20%EC%9A%94%EC%B2%AD%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0.md)
     * [HTTP 요청 메세지 >> 단순 텍스트/ JSON 타입](https://github.com/MJeong00/TIL/blob/main/Spring/HTTP%20%EC%9A%94%EC%B2%AD%20%EB%A9%94%EC%84%B8%EC%A7%80.md)
   * HTTP 응답
