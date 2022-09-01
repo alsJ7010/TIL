@@ -37,7 +37,7 @@
   * [스프링 Bean 조회](https://github.com/MJeong00/TIL/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20Bean%20%EC%A1%B0%ED%9A%8C.md)
   * [스프링 빈 조회 - 상속 관계](https://github.com/MJeong00/TIL/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88%20%EC%A1%B0%ED%9A%8C%20-%20%EC%83%81%EC%86%8D%20%EA%B4%80%EA%B3%84.md)
   * [BeanFactory와 ApplicationContext](https://github.com/MJeong00/TIL/blob/main/BeanFactory%EC%99%80%20ApplicationContext.md)
-  * [BeanDefinition - 스프링 빈 설정 메타 정보](https://github.com/MJeong00/TIL/blob/main/BeanDefinition%20-%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88%20%EC%84%A4%EC%A0%95%20%EB%A9%94%ED%83%80%20%EC%A0%95%EB%B3%B4.md)
+  * [BeanDefinition - 스프링 빈 설정 메타 정보](https://github.com/MJeong00/TIL/blob/main/Spring/BeanDefinition%20-%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88%20%EC%84%A4%EC%A0%95%20%EB%A9%94%ED%83%80%20%EC%A0%95%EB%B3%B4.md)
 * [싱글톤 패턴](https://github.com/MJeong00/TIL/blob/main/%EC%8B%B1%EA%B8%80%ED%86%A4%20%ED%8C%A8%ED%84%B4.md)
   * [싱글톤 컨테이너](https://github.com/MJeong00/TIL/blob/main/%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
   * [@Configuration과 싱글톤](https://github.com/MJeong00/TIL/blob/main/Spring/%40Configuration%EA%B3%BC%20%EC%8B%B1%EA%B8%80%ED%86%A4.md)
