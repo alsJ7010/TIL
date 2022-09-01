@@ -46,4 +46,4 @@
   * [조회 빈이 두개 이상](https://github.com/MJeong00/TIL/blob/main/Spring/%EC%A1%B0%ED%9A%8C%20%EB%B9%88%EC%9D%B4%20%EB%91%90%EA%B0%9C%20%EC%9D%B4%EC%83%81%20.md)
 * [빈 생명주기 콜백](https://github.com/MJeong00/TIL/blob/main/Spring/%EB%B9%88%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%20%EC%BD%9C%EB%B0%B1.md)
 * [빈 스코프](https://github.com/MJeong00/TIL/blob/main/Spring/%EB%B9%88%20%EC%8A%A4%EC%BD%94%ED%94%84.md)
-* [프록시](https://github.com/MJeong00/TIL/blob/main/%ED%94%84%EB%A1%9D%EC%8B%9C.md)
+* [프록시](https://github.com/MJeong00/TIL/edit/main/%ED%94%84%EB%A1%9D%EC%8B%9C.md)
