@@ -1,4 +1,4 @@
-# HTTP의 발전_1.md
+# HTTP의 발전_HTTP 1.x
 
 ### HTTP란?
 HTTP(Hyper Text Transfer Protocol)는 텍스트 기반의 통신 규약으로 인터넷에서 데이터를 주고받을 때 사용되는 프로토콜이다.
