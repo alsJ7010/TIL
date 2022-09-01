@@ -1,4 +1,4 @@
-# 스프링 구조
+# DispatchServlet을 통해 보는 스프링 구조
 
 
  ![image](https://user-images.githubusercontent.com/108853290/187870504-ff3a08b8-88d0-474b-9a15-f3143d9ea382.png)   
