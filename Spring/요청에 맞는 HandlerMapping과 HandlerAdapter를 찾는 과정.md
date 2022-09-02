@@ -1,6 +1,6 @@
-# HandlerMapping과 HandlerAdapter
+# 요청에 맞는 HandlerMapping과 HandlerAdapter를 찾는 과정
 > 해당 정리는 김영한님의 인프런_[스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술]을 참고하였습니다.
-
+  
 > **HandlerMapping과 HandlerAdapter는 모두 인터페이스**이다.   
 > 요청에 맞는 컨트롤러를 실행 시키기 위해서 HandlerMapping과 HandlerAdapter를 인터페이스로 두고 여러 타입으로 구현체를 구현하도록 했다.   
 > 스프링에서는 이미 필요한 대부분의 HandlerMapping과 HandlerAdapter를 모두 구현해 놨다.    
