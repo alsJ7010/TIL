@@ -6,6 +6,11 @@
 모든 요청은 일단 FrontController인 `DispatcherServlet`에서 시작된다. 
 요청을 처리하기 위해서는 `DispatcherServlet`이 미리 담아두어야 할 값들에 대해서, 실행 로직에 대해서 스프링의 코드로 좀 더 자세히 봤다.
 
+### 요청의 시작
+먼저 서블릿이 호출되면 `HttpServlet`이 제공하는 `service()`가 호출된다.   
+스프링MVC에서 `HttpServlet`는 `DispatchServlet`이 상속받고 있는 `FrameworkServlet`에서 `service()`를 오버라이드 해두었고   
+`FrameworkServlet.service()`를 시작으로 `DispatchServlet`의 **`doDispatch()`** 메소드를 실행하며 여기에 핵심 로직이 다 들어있다.
+
 
 ![image](https://user-images.githubusercontent.com/108853290/187873461-d1694def-c17e-42c5-bb53-a9f1582854ab.png)      
 **`DispatcherServlet` 초기화 단계에서 스프링 컨테이너를 매개변수로 받아서 `initStrategies` 메소드를 실행**하게 된다.   
