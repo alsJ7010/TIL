@@ -18,6 +18,7 @@
   * [MVC패턴 이해하기3](https://github.com/MJeong00/TIL/blob/main/Spring/MVC%ED%8C%A8%ED%84%B4%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B03.md)
   * [Adapter 개념의 도입](https://github.com/MJeong00/TIL/blob/main/Spring/MVC%ED%8C%A8%ED%84%B4%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B04.md)
   * [DispatchServlet을 통해 보는 스프링 구조](https://github.com/MJeong00/TIL/blob/main/Spring/DispatchServlet%EC%9D%84%20%ED%86%B5%ED%95%B4%20%EB%B3%B4%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EA%B5%AC%EC%A1%B0.md)
+  * [요청에 맞는 HandlerMapping과 HandlerAdapter를 찾는 과정](https://github.com/MJeong00/TIL/blob/main/Spring/%EC%9A%94%EC%B2%AD%EC%97%90%20%EB%A7%9E%EB%8A%94%20HandlerMapping%EA%B3%BC%20HandlerAdapter%EB%A5%BC%20%EC%B0%BE%EB%8A%94%20%EA%B3%BC%EC%A0%95.md)
 * [Spring의 동작 방식과 Controller 인터페이스](https://github.com/MJeong00/TIL/blob/main/Spring/Spring%EC%9D%98%20%EA%B5%AC%EC%A1%B0.md)
 * [메세지 컨버터](https://github.com/MJeong00/TIL/blob/main/Spring/HTTP%20%EB%A9%94%EC%84%B8%EC%A7%80%20%EC%BB%A8%EB%B2%84%ED%84%B0.md)
 * [Logging](https://github.com/MJeong00/TIL/blob/main/Spring/Logging.md)
