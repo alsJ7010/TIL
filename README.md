@@ -23,6 +23,7 @@
 * [메세지 컨버터](https://github.com/MJeong00/TIL/blob/main/Spring/HTTP%20%EB%A9%94%EC%84%B8%EC%A7%80%20%EC%BB%A8%EB%B2%84%ED%84%B0.md)
 * [Logging](https://github.com/MJeong00/TIL/blob/main/Spring/Logging.md)
 * HTTP 요청/응답
+  * [HttpEntity](https://github.com/MJeong00/TIL/blob/main/Spring/HttpEntity.md)
   * HTTP 요청
     * [HTTP 요청 메세지를 통해 클라이언트에서 서버로 데이터를 전달하는 세가지 방법](https://github.com/MJeong00/TIL/blob/main/Spring/HTTP%20%EC%9A%94%EC%B2%AD.md)
     * [@RequestParam, @ModelAttribute](https://github.com/MJeong00/TIL/blob/main/Spring/HTTP%20%EC%9A%94%EC%B2%AD%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0.md)
@@ -49,4 +50,3 @@
 * [빈 생명주기 콜백](https://github.com/MJeong00/TIL/blob/main/Spring/%EB%B9%88%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%20%EC%BD%9C%EB%B0%B1.md)
 * [빈 스코프](https://github.com/MJeong00/TIL/blob/main/Spring/%EB%B9%88%20%EC%8A%A4%EC%BD%94%ED%94%84.md)
 * [프록시](https://github.com/MJeong00/TIL/blob/main/Spring/%ED%94%84%EB%A1%9D%EC%8B%9C.md)
-* [HttpEntity](https://github.com/MJeong00/TIL/blob/main/Spring/HttpEntity.md)
