@@ -3,7 +3,7 @@
 
 
 **스프링 컨테이너는 빈의 싱글톤을 보장**해준다고 했다.  
-이전에 [스프링 컨테이너와 스프링 빈](https://github.com/MJeong00/TIL/blob/main/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%99%80%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88.md)
+이전에 [스프링 컨테이너와 스프링 빈](https://github.com/MJeong00/TIL/blob/main/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%99%80%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88.md)
 에서 `@Configuration`과 `@Bean` 애노테이션을 사용해 스프링 컨테이너에 빈을 등록한다고 했는데
 
 ![image](https://user-images.githubusercontent.com/108853290/183563832-ce74dc86-9ced-45c2-9a3a-85565418d09a.png)  
