@@ -19,7 +19,7 @@ public class ApplicationContextInfoTest {
 ```
   
 * `.getBeanDefinitionNames()`를 통해 스프링 컨테이너에 등록된 모든 빈들을 조회할 수 있다.
-> 참고 : [BeanDefinition - 스프링 빈 설정 메타 정보](https://github.com/MJeong00/TIL/blob/main/BeanDefinition%20-%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88%20%EC%84%A4%EC%A0%95%20%EB%A9%94%ED%83%80%20%EC%A0%95%EB%B3%B4.md)  
+> 참고 : [BeanDefinition - 스프링 빈 설정 메타 정보](https://github.com/MJeong00/TIL/blob/main/Spring/BeanDefinition%20-%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88%20%EC%84%A4%EC%A0%95%20%EB%A9%94%ED%83%80%20%EC%A0%95%EB%B3%B4.md)  
 
 
 
